@@ -10,8 +10,14 @@ namespace Controllers
     {
         public DbSet<Person> Persons { get; set; }
 
-        public AppContext()
+        public AppContext(DbContextOptions options) : base(options)
         { }
+        public AppContext()
+        {
+            // var options = new DbContextOptionsBuilder<MyDbContext>()
+            //         .UseInMemoryDatabase(Guid.NewGuid().ToString())
+            //       .Options;
+        }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

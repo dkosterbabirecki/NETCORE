@@ -1,0 +1,9 @@
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Interface\bin\Debug\netcoreapp2.1\DataAccess.Interface.deps.json
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Interface\bin\Debug\netcoreapp2.1\DataAccess.Interface.dll
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Interface\bin\Debug\netcoreapp2.1\DataAccess.Interface.pdb
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Interface\obj\Debug\netcoreapp2.1\DataAccess.Interface.csproj.CoreCompileInputs.cache
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Interface\obj\Debug\netcoreapp2.1\DataAccess.Interface.AssemblyInfoInputs.cache
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Interface\obj\Debug\netcoreapp2.1\DataAccess.Interface.AssemblyInfo.cs
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Interface\obj\Debug\netcoreapp2.1\DataAccess.Interface.dll
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Interface\obj\Debug\netcoreapp2.1\DataAccess.Interface.pdb
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Interface\obj\Debug\netcoreapp2.1\DataAccess.Interface.csprojAssemblyReference.cache

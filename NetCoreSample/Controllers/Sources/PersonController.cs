@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Model;
-using DataAccess;
+using DataAccess.Interface;
 
 namespace Controllers
 {

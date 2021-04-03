@@ -9,6 +9,7 @@
       "ConsoleApp1/1.0.0": {
         "dependencies": {
           "Controllers": "1.0.0",
+          "DataAccess.Implementation": "1.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "2.0.1"
         },
         "runtime": {
@@ -487,7 +488,7 @@
       },
       "Controllers/1.0.0": {
         "dependencies": {
-          "DataAccess": "1.0.0",
+          "DataAccess.Interface": "1.0.0",
           "Microsoft.EntityFrameworkCore": "2.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.0.1",
           "Model": "1.0.0"
@@ -496,12 +497,18 @@
           "Controllers.dll": {}
         }
       },
-      "DataAccess/1.0.0": {
+      "DataAccess.Implementation/1.0.0": {
         "dependencies": {
+          "DataAccess.Interface": "1.0.0",
           "Microsoft.EntityFrameworkCore": "2.0.1"
         },
         "runtime": {
-          "DataAccess.dll": {}
+          "DataAccess.Implementation.dll": {}
+        }
+      },
+      "DataAccess.Interface/1.0.0": {
+        "runtime": {
+          "DataAccess.Interface.dll": {}
         }
       },
       "Model/1.0.0": {
@@ -889,7 +896,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DataAccess/1.0.0": {
+    "DataAccess.Implementation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataAccess.Interface/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

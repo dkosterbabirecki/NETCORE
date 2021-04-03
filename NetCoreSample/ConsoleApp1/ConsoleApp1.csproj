@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Controllers\Controllers.csproj" />
+    <ProjectReference Include="..\DataAccess.Implementation\DataAccess.Implementation.csproj" />
   </ItemGroup>
 
 </Project>

@@ -2018,7 +2018,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
-          "DataAccess": "1.0.0",
+          "DataAccess.Interface": "1.0.0",
           "Microsoft.EntityFrameworkCore": "2.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.0.1",
           "Model": "1.0.0"
@@ -2030,17 +2030,14 @@
           "bin/placeholder/Controllers.dll": {}
         }
       },
-      "DataAccess/1.0.0": {
+      "DataAccess.Interface/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "2.0.1"
-        },
         "compile": {
-          "bin/placeholder/DataAccess.dll": {}
+          "bin/placeholder/DataAccess.Interface.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DataAccess.dll": {}
+          "bin/placeholder/DataAccess.Interface.dll": {}
         }
       },
       "Model/1.0.0": {
@@ -6824,10 +6821,10 @@
       "path": "../Controllers/Controllers.csproj",
       "msbuildProject": "../Controllers/Controllers.csproj"
     },
-    "DataAccess/1.0.0": {
+    "DataAccess.Interface/1.0.0": {
       "type": "project",
-      "path": "../DataAccess/DataAccess.csproj",
-      "msbuildProject": "../DataAccess/DataAccess.csproj"
+      "path": "../DataAccess.Interface/DataAccess.Interface.csproj",
+      "msbuildProject": "../DataAccess.Interface/DataAccess.Interface.csproj"
     },
     "Model/1.0.0": {
       "type": "project",
@@ -6838,7 +6835,6 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Controllers >= 1.0.0",
-      "DataAccess >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 15.8.0",
       "Microsoft.NETCore.App >= 2.1.0",
       "Model >= 1.0.0",
@@ -6853,11 +6849,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\great\\source\\repos\\ConsoleApp1\\Tests\\Tests.csproj",
+      "projectUniqueName": "C:\\Users\\great\\OneDrive\\Desktop\\net\\NetCoreSample\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "C:\\Users\\great\\source\\repos\\ConsoleApp1\\Tests\\Tests.csproj",
+      "projectPath": "C:\\Users\\great\\OneDrive\\Desktop\\net\\NetCoreSample\\Tests\\Tests.csproj",
       "packagesPath": "C:\\Users\\great\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\great\\source\\repos\\ConsoleApp1\\Tests\\obj\\",
+      "outputPath": "C:\\Users\\great\\OneDrive\\Desktop\\net\\NetCoreSample\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6876,14 +6872,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\great\\source\\repos\\ConsoleApp1\\Controllers\\Controllers.csproj": {
-              "projectPath": "C:\\Users\\great\\source\\repos\\ConsoleApp1\\Controllers\\Controllers.csproj"
+            "C:\\Users\\great\\OneDrive\\Desktop\\net\\NetCoreSample\\Controllers\\Controllers.csproj": {
+              "projectPath": "C:\\Users\\great\\OneDrive\\Desktop\\net\\NetCoreSample\\Controllers\\Controllers.csproj"
             },
-            "C:\\Users\\great\\source\\repos\\ConsoleApp1\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\great\\source\\repos\\ConsoleApp1\\DataAccess\\DataAccess.csproj"
-            },
-            "C:\\Users\\great\\source\\repos\\ConsoleApp1\\Model\\Model.csproj": {
-              "projectPath": "C:\\Users\\great\\source\\repos\\ConsoleApp1\\Model\\Model.csproj"
+            "C:\\Users\\great\\OneDrive\\Desktop\\net\\NetCoreSample\\Model\\Model.csproj": {
+              "projectPath": "C:\\Users\\great\\OneDrive\\Desktop\\net\\NetCoreSample\\Model\\Model.csproj"
             }
           }
         }

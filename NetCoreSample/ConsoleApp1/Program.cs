@@ -1,6 +1,7 @@
 ﻿using System;
 using Controllers;
 using Model;
+using DataAccess.Implementation;
 namespace ConsoleApp1
 {
     class Program
