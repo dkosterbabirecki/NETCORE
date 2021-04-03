@@ -24,8 +24,6 @@
     ".NETCoreApp,Version=v2.1": {
       "Api/1.0.0": {
         "dependencies": {
-          "BusinessLogic": "1.0.0",
-          "BusinessLogic.Interface": "1.0.0",
           "DataAccess.Implementation": "1.0.0",
           "DataAccess.Interface": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.1",
@@ -33,7 +31,9 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1",
           "Microsoft.NETCore.App": "2.1.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.1",
-          "Model": "1.0.0"
+          "Model": "1.0.0",
+          "Services": "1.0.0",
+          "Services.Interface": "1.0.0"
         },
         "runtime": {
           "Api.dll": {}
@@ -521,27 +521,6 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
-      "BusinessLogic/1.0.0": {
-        "dependencies": {
-          "BusinessLogic.Interface": "1.0.0",
-          "DataAccess.Interface": "1.0.0",
-          "Model": "1.0.0"
-        },
-        "runtime": {
-          "BusinessLogic.dll": {}
-        },
-        "compile": {
-          "BusinessLogic.dll": {}
-        }
-      },
-      "BusinessLogic.Interface/1.0.0": {
-        "runtime": {
-          "BusinessLogic.Interface.dll": {}
-        },
-        "compile": {
-          "BusinessLogic.Interface.dll": {}
-        }
-      },
       "DataAccess.Implementation/1.0.0": {
         "dependencies": {
           "DataAccess.Interface": "1.0.0",
@@ -571,6 +550,27 @@
         },
         "compile": {
           "Model.dll": {}
+        }
+      },
+      "Services/1.0.0": {
+        "dependencies": {
+          "DataAccess.Interface": "1.0.0",
+          "Model": "1.0.0",
+          "Services.Interface": "1.0.0"
+        },
+        "runtime": {
+          "Services.dll": {}
+        },
+        "compile": {
+          "Services.dll": {}
+        }
+      },
+      "Services.Interface/1.0.0": {
+        "runtime": {
+          "Services.Interface.dll": {}
+        },
+        "compile": {
+          "Services.Interface.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3710,16 +3710,6 @@
       "path": "system.linq.parallel/4.3.0",
       "hashPath": "system.linq.parallel.4.3.0.nupkg.sha512"
     },
-    "BusinessLogic/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "BusinessLogic.Interface/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "DataAccess.Implementation/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -3731,6 +3721,16 @@
       "sha512": ""
     },
     "Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Services.Interface/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

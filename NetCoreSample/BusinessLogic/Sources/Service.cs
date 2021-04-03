@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using BusinessLogic.Interface;
+using Services.Interface;
 using DataAccess.Interface;
 
-namespace BusinessLogic.Sources
+namespace Services.Sources
 {
     public class Service<Entity> : IService<Entity>
     {

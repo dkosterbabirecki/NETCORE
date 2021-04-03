@@ -214,16 +214,6 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "BusinessLogic.Interface/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "compile": {
-          "bin/placeholder/BusinessLogic.Interface.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BusinessLogic.Interface.dll": {}
-        }
-      },
       "DataAccess.Interface/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -245,6 +235,16 @@
         },
         "runtime": {
           "bin/placeholder/Model.dll": {}
+        }
+      },
+      "Services.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Services.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.Interface.dll": {}
         }
       }
     }
@@ -768,11 +768,6 @@
         "netstandard.library.nuspec"
       ]
     },
-    "BusinessLogic.Interface/1.0.0": {
-      "type": "project",
-      "path": "../BusinessLogic.Interface/BusinessLogic.Interface.csproj",
-      "msbuildProject": "../BusinessLogic.Interface/BusinessLogic.Interface.csproj"
-    },
     "DataAccess.Interface/1.0.0": {
       "type": "project",
       "path": "../DataAccess.Interface/DataAccess.Interface.csproj",
@@ -782,14 +777,19 @@
       "type": "project",
       "path": "../Model/Model.csproj",
       "msbuildProject": "../Model/Model.csproj"
+    },
+    "Services.Interface/1.0.0": {
+      "type": "project",
+      "path": "../BusinessLogic.Interface/Services.Interface.csproj",
+      "msbuildProject": "../BusinessLogic.Interface/Services.Interface.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "BusinessLogic.Interface >= 1.0.0",
       "DataAccess.Interface >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0",
-      "Model >= 1.0.0"
+      "Model >= 1.0.0",
+      "Services.Interface >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -799,9 +799,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\great\\OneDrive\\Desktop\\net\\NetCoreSample\\BusinessLogic\\BusinessLogic.csproj",
-      "projectName": "BusinessLogic",
-      "projectPath": "C:\\Users\\great\\OneDrive\\Desktop\\net\\NetCoreSample\\BusinessLogic\\BusinessLogic.csproj",
+      "projectUniqueName": "C:\\Users\\great\\OneDrive\\Desktop\\net\\NetCoreSample\\BusinessLogic\\Services.csproj",
+      "projectName": "Services",
+      "projectPath": "C:\\Users\\great\\OneDrive\\Desktop\\net\\NetCoreSample\\BusinessLogic\\Services.csproj",
       "packagesPath": "C:\\Users\\great\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\great\\OneDrive\\Desktop\\net\\NetCoreSample\\BusinessLogic\\obj\\",
       "projectStyle": "PackageReference",
@@ -822,8 +822,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\great\\OneDrive\\Desktop\\net\\NetCoreSample\\BusinessLogic.Interface\\BusinessLogic.Interface.csproj": {
-              "projectPath": "C:\\Users\\great\\OneDrive\\Desktop\\net\\NetCoreSample\\BusinessLogic.Interface\\BusinessLogic.Interface.csproj"
+            "C:\\Users\\great\\OneDrive\\Desktop\\net\\NetCoreSample\\BusinessLogic.Interface\\Services.Interface.csproj": {
+              "projectPath": "C:\\Users\\great\\OneDrive\\Desktop\\net\\NetCoreSample\\BusinessLogic.Interface\\Services.Interface.csproj"
             },
             "C:\\Users\\great\\OneDrive\\Desktop\\net\\NetCoreSample\\DataAccess.Interface\\DataAccess.Interface.csproj": {
               "projectPath": "C:\\Users\\great\\OneDrive\\Desktop\\net\\NetCoreSample\\DataAccess.Interface\\DataAccess.Interface.csproj"

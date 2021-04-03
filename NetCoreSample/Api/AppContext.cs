@@ -11,7 +11,8 @@ namespace Api
         public DbSet<Person> Persons { get; set; }
 
         public EntityContext(DbContextOptions options) : base(options)
-        { }
+        {
+        }
         public EntityContext()
         {
             // var options = new DbContextOptionsBuilder<MyDbContext>()

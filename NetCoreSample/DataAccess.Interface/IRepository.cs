@@ -12,7 +12,7 @@ namespace DataAccess.Interface
         void Remove(Entity element);
         void Update(Entity element);
         Entity First(Func<Entity, bool> where);
-        IQueryable<Entity> Filter(Func<Entity, bool> query, Func<Entity,bool> sort = null);
+        IQueryable<Entity> Filter(Func<Entity, bool> query);
         IEnumerable<Entity> All { get; }
     }
 }

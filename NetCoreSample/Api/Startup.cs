@@ -12,8 +12,8 @@ using Microsoft.Extensions.Options;
 using DataAccess.Interface;
 using DataAccess.Implementation;
 using Model;
-using BusinessLogic.Interface;
-using BusinessLogic.Sources;
+using Services.Interface;
+using Services.Sources;
 using Microsoft.EntityFrameworkCore;
 
 namespace Api

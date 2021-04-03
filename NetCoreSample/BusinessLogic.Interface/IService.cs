@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 
-namespace BusinessLogic.Interface
+namespace Services.Interface
 {
     public interface IService<Entity>
     {

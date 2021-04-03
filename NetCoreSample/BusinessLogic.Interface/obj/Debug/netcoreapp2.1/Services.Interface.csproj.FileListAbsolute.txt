@@ -1,0 +1,9 @@
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\BusinessLogic.Interface\bin\Debug\netcoreapp2.1\Services.Interface.deps.json
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\BusinessLogic.Interface\bin\Debug\netcoreapp2.1\Services.Interface.dll
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\BusinessLogic.Interface\bin\Debug\netcoreapp2.1\Services.Interface.pdb
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\BusinessLogic.Interface\obj\Debug\netcoreapp2.1\Services.Interface.csprojAssemblyReference.cache
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\BusinessLogic.Interface\obj\Debug\netcoreapp2.1\Services.Interface.csproj.CoreCompileInputs.cache
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\BusinessLogic.Interface\obj\Debug\netcoreapp2.1\Services.Interface.AssemblyInfoInputs.cache
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\BusinessLogic.Interface\obj\Debug\netcoreapp2.1\Services.Interface.AssemblyInfo.cs
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\BusinessLogic.Interface\obj\Debug\netcoreapp2.1\Services.Interface.dll
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\BusinessLogic.Interface\obj\Debug\netcoreapp2.1\Services.Interface.pdb

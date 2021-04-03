@@ -687,9 +687,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\great\\OneDrive\\Desktop\\net\\NetCoreSample\\BusinessLogic.Interface\\BusinessLogic.Interface.csproj",
-      "projectName": "BusinessLogic.Interface",
-      "projectPath": "C:\\Users\\great\\OneDrive\\Desktop\\net\\NetCoreSample\\BusinessLogic.Interface\\BusinessLogic.Interface.csproj",
+      "projectUniqueName": "C:\\Users\\great\\OneDrive\\Desktop\\net\\NetCoreSample\\BusinessLogic.Interface\\Services.Interface.csproj",
+      "projectName": "Services.Interface",
+      "projectPath": "C:\\Users\\great\\OneDrive\\Desktop\\net\\NetCoreSample\\BusinessLogic.Interface\\Services.Interface.csproj",
       "packagesPath": "C:\\Users\\great\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\great\\OneDrive\\Desktop\\net\\NetCoreSample\\BusinessLogic.Interface\\obj\\",
       "projectStyle": "PackageReference",

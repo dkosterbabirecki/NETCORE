@@ -24,7 +24,7 @@ namespace DataAccess.Implementation
             records.Add(element);
         }
 
-        public IQueryable<Entity> Filter(Func<Entity, bool> query, Func<Entity, bool> sort = null)
+        public IQueryable<Entity> Filter(Func<Entity, bool> query)
         {
             return records.Where(query).AsQueryable();
         }
