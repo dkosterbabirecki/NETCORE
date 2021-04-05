@@ -23,7 +23,7 @@ namespace DataAccess.Implementation
 
         public IEnumerable<Entity> All => elements;
 
-        public IQueryable<Entity> Filter(Func<Entity, bool> query, Func<Entity, bool> sort = null)
+        public IQueryable<Entity> Filter(Func<Entity, bool> query)
         {
             return elements.Where(query).AsQueryable();
         }

@@ -1,0 +1,12 @@
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Config\bin\Debug\netcoreapp3.1\DataAccess.Config.deps.json
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Config\bin\Debug\netcoreapp3.1\DataAccess.Config.dll
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Config\bin\Debug\netcoreapp3.1\DataAccess.Config.pdb
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Config\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Config\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Config\obj\Debug\netcoreapp3.1\DataAccess.Config.csprojAssemblyReference.cache
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Config\obj\Debug\netcoreapp3.1\DataAccess.Config.AssemblyInfoInputs.cache
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Config\obj\Debug\netcoreapp3.1\DataAccess.Config.AssemblyInfo.cs
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Config\obj\Debug\netcoreapp3.1\DataAccess.Config.csproj.CoreCompileInputs.cache
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Config\obj\Debug\netcoreapp3.1\DataAccess.Config.csproj.CopyComplete
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Config\obj\Debug\netcoreapp3.1\DataAccess.Config.dll
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Config\obj\Debug\netcoreapp3.1\DataAccess.Config.pdb

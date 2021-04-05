@@ -1,0 +1,14 @@
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\Services.Implementation\bin\Debug\netcoreapp3.1\Services.Implementation.deps.json
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\Services.Implementation\bin\Debug\netcoreapp3.1\Services.Implementation.dll
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\Services.Implementation\bin\Debug\netcoreapp3.1\Services.Implementation.pdb
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\Services.Implementation\bin\Debug\netcoreapp3.1\DataAccess.Interface.dll
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\Services.Implementation\bin\Debug\netcoreapp3.1\Services.Interface.dll
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\Services.Implementation\bin\Debug\netcoreapp3.1\DataAccess.Interface.pdb
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\Services.Implementation\bin\Debug\netcoreapp3.1\Services.Interface.pdb
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\Services.Implementation\obj\Debug\netcoreapp3.1\Services.Implementation.csprojAssemblyReference.cache
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\Services.Implementation\obj\Debug\netcoreapp3.1\Services.Implementation.AssemblyInfoInputs.cache
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\Services.Implementation\obj\Debug\netcoreapp3.1\Services.Implementation.AssemblyInfo.cs
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\Services.Implementation\obj\Debug\netcoreapp3.1\Services.Implementation.csproj.CoreCompileInputs.cache
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\Services.Implementation\obj\Debug\netcoreapp3.1\Services.Implementation.csproj.CopyComplete
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\Services.Implementation\obj\Debug\netcoreapp3.1\Services.Implementation.dll
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\Services.Implementation\obj\Debug\netcoreapp3.1\Services.Implementation.pdb

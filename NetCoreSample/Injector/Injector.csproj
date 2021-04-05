@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.13" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.13" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccess.Config\DataAccess.Config.csproj" />
+    <ProjectReference Include="..\DataAccess.Implementation\DataAccess.Implementation.csproj" />
+    <ProjectReference Include="..\DataAccess.Interface\DataAccess.Interface.csproj" />
+    <ProjectReference Include="..\Entities\Entities.csproj" />
+    <ProjectReference Include="..\Services.Implementation\Services.Implementation.csproj" />
+    <ProjectReference Include="..\Services.Interface\Services.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

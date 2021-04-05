@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Services.Implementation/1.0.0": {
+        "dependencies": {
+          "DataAccess.Interface": "1.0.0",
+          "Services.Interface": "1.0.0"
+        },
+        "runtime": {
+          "Services.Implementation.dll": {}
+        }
+      },
+      "DataAccess.Interface/1.0.0": {
+        "runtime": {
+          "DataAccess.Interface.dll": {}
+        }
+      },
+      "Services.Interface/1.0.0": {
+        "runtime": {
+          "Services.Interface.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Services.Implementation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataAccess.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Services.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
