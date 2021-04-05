@@ -10,7 +10,7 @@ namespace Services.Interface
         Entity Add(Entity entity);
         void Remove(Entity entity);
         void Update(Entity entity);
-        IEnumerable<Entity> Get();
+        IQueryable<Entity> Get();
         Entity Get(Guid id);
         IQueryable<Entity> Filter(Func<Entity, bool> query);
     }

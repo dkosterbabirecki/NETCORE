@@ -21,7 +21,7 @@ namespace DataAccess.Implementation
             elements.Add(element);
         }
 
-        public IEnumerable<Entity> All => elements;
+        public IQueryable<Entity> All => elements.AsQueryable();
 
         public IQueryable<Entity> Filter(Func<Entity, bool> query)
         {

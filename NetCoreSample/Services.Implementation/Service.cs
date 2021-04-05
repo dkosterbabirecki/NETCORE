@@ -19,35 +19,35 @@ namespace Services.Implementation
 
         public Entity Add(Entity entity)
         {
-                dataProvider.repository.Add(entity);
+                dataProvider.Repository.Add(entity);
                 dataProvider.Save();
                 return entity;
         }
 
         public IQueryable<Entity> Filter(Func<Entity, bool> query)
         {
-            return dataProvider.repository.Filter(query);
+            return dataProvider.Repository.Filter(query);
         }
 
-        public IEnumerable<Entity> Get()
+        public IQueryable<Entity> Get()
         {
-            return dataProvider.repository.All;
+            return dataProvider.Repository.All;
         }
 
         public Entity Get(Guid id)
         {
-            return dataProvider.repository.All.First();
+            return dataProvider.Repository.All.First();
         }
 
         public void Remove(Entity entity)
         {
-            dataProvider.repository.Remove(entity);
+            dataProvider.Repository.Remove(entity);
             dataProvider.Save();
         }
 
         public void Update(Entity entity)
         {
-            dataProvider.repository.Update(entity);
+            dataProvider.Repository.Update(entity);
             dataProvider.Save();
         }
     }

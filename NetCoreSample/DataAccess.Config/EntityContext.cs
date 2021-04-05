@@ -10,6 +10,8 @@ namespace DataAccess.Config
     public class EntityContext : DbContext
     {
         public DbSet<Person> Persons { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<PersonCategory> PersonCategories { get; set; }
 
         public EntityContext(DbContextOptions options) : base(options)
         {

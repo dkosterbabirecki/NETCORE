@@ -6,7 +6,7 @@ namespace DataAccess.Interface
 {
     public interface IDataProvider<Entity> : IDisposable
     {
-        IRepository<Entity> repository { get; }
+        IRepository<Entity> Repository { get; }
         void Save();
     }
 }

@@ -33,10 +33,11 @@ namespace WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            Injector.Injector.Inject(services, Configuration);
-            services.AddScoped<IRepository<Person>, EFRepository<Person>>();
+            //Injector.Injector.Inject(services, Configuration);
+            //services.AddScoped<IRepository<Person>, EFRepository<Person>>();
 
-            services.AddDbContext<DbContext,EntityContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<DbContext,EntityContext>(options => 
+            options.UseLazyLoadingProxies(true).UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             // aqui se inyecta siempre EFREpository cuando se usa un repository
             //services.AddDbContext<EntityContext>(options => options.UseSqlServer(""));
             services.AddScoped(typeof(IDataProvider<>), typeof(EFDataProvider<>));

@@ -15,6 +15,9 @@ namespace DataAccess.Config.EntityConfigurations
             builder.HasKey(p => p.Id);
             builder.Property(p => p.Id).ValueGeneratedOnAdd();
             builder.HasIndex("Email").IsUnique();
+            builder.Property(p => p.Email).IsRequired();
+            builder.Property(p => p.CreatedAt)
+                   .HasDefaultValueSql("getdate()");
         }
     }
 }

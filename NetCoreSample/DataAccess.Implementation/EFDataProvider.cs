@@ -8,12 +8,13 @@ namespace DataAccess.Implementation
 {
     public class EFDataProvider<Entity> : IDataProvider<Entity> where Entity : class
     {
-        public IRepository<Entity> repository => new EFRepository<Entity>(context);
+        public IRepository<Entity> Repository => repository;
         private DbContext context;
-
-        public EFDataProvider(DbContext context)
+        private IRepository<Entity> repository;
+        public EFDataProvider(DbContext context, IRepository<Entity> repository)
         {
             this.context = context;
+            this.repository = repository;
         }
 
         public void Dispose()

@@ -10,3 +10,6 @@ C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Config\obj\Debug\ne
 C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Config\obj\Debug\netcoreapp3.1\DataAccess.Config.csproj.CopyComplete
 C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Config\obj\Debug\netcoreapp3.1\DataAccess.Config.dll
 C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Config\obj\Debug\netcoreapp3.1\DataAccess.Config.pdb
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Config\bin\Debug\netcoreapp3.1\DataAccess.Config.runtimeconfig.json
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Config\bin\Debug\netcoreapp3.1\DataAccess.Config.runtimeconfig.dev.json
+C:\Users\great\OneDrive\Desktop\net\NetCoreSample\DataAccess.Config\obj\Debug\netcoreapp3.1\DataAccess.Config.genruntimeconfig.cache

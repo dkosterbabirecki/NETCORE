@@ -1,34 +1,32 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Entities;
 using Services.Interface;
 
 namespace WebApi.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class PersonController : ControllerBase
+    //[Route("api/[controller]")]
+    //[ApiController]
+    public class CRUDController<Entity> : ControllerBase
     {
+        private IService<Entity> service;
 
-        private IService<Person> service;
-
-        public PersonController(IService<Person> service)
+        public CRUDController(IService<Entity> service)
         {
             this.service = service;
         }
-        // GET api/values
+
         [HttpGet]
-        public ActionResult<IEnumerable<Person>> Get()
+        public virtual ActionResult<IEnumerable<Entity>> Get()
         {
             return Ok(service.Get());
         }
 
-        // GET api/values/5
         [HttpGet("{id}")]
-        public ActionResult<Person> Get(Guid id)
+        public virtual ActionResult<Entity> Get(Guid id)
         {
             var person = service.Get(id);
             if (person == null)
@@ -40,21 +38,27 @@ namespace WebApi.Controllers
 
         // POST api/values
         [HttpPost]
-        public ActionResult Post([FromBody] Person value)
+        public virtual ActionResult Post([FromBody] Entity value)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
             return Ok(service.Add(value));
         }
 
         // PUT api/values/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public virtual void Put(int id, [FromBody] string value)
         {
         }
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public virtual void Delete(int id)
         {
         }
+
+
     }
 }

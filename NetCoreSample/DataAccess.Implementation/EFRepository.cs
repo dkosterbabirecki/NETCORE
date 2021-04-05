@@ -17,7 +17,7 @@ namespace DataAccess.Implementation
             this.context = context;
             records = context.Set<Entity>();
         }
-        public IEnumerable<Entity> All => records;
+        public IQueryable<Entity> All => records;
 
         public void Add(Entity element)
         {
